@@ -1,0 +1,81 @@
+.paper-margin{
+  width:460pt;
+  margin-left: 70pt;
+  margin-right: 70pt;
+  margin-top: 30px;
+  display: inline-block;
+}
+.user{
+  background-color: yellow;
+  height:155pt;
+  width:155pt;
+  display: inline;
+  margin-right: 30pt;
+  margin-bottom: 30pt;
+}
+.user-info{
+  float: right;
+  min-width: 260pt;
+  padding-left: 10pt;
+}
+.saxeli{
+  margin-top: 2pt;
+  font-size: 13pt;
+  display: inline-block;
+}
+.gvari{
+  margin-top: 2pt;
+  font-size:13pt;
+  float: right;
+  display: inline-block;
+  margin-right: 150pt;
+}
+.asaki{
+  font-size: 13pt;
+  display: block;
+  margin-top: 18pt;
+}
+.user-edit{
+  line-height: 26pt;
+  height: 26pt;
+  float: right;
+  width:70pt;
+  margin-right: 10pt;
+}
+.edit{
+  font-size:14pt;
+  display:inline-block;
+  vertical-align:top;
+}
+.edit-icon{
+  height:26pt;
+   width:26pt;
+   padding-left: 10pt;
+   padding-right: 10pt;
+}
+.dawv-info{
+  font-size: 10pt;
+  display:block;
+  margin-top: 36pt;
+  height:76pt;
+  width:260pt;
+}
+.achivements{
+    width:100%;
+}
+.achi-text{
+  width:460pt;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12pt;
+}
+
+
+.greendetail{
+  z-index: 3;
+  position: absolute;
+  height: 6pt;
+  width:33.33%;
+  background-color: rgb(7,92,80);
+  border-radius: 10pt;
+}
