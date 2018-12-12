@@ -169,7 +169,9 @@ color:rgb(237,50,55);
   line-height: 1.2;
 }
 
-
+.appear{
+  display:none;
+}
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
@@ -180,13 +182,23 @@ color:rgb(237,50,55);
   }
 }
 @media only screen and (max-width: 1100px) {
-  .del{ display:none; }
-.
-
+.top-nav-box{width:60vw;}
+.paper{width:56vw;}
 
 
 
   }
+
+  @media only screen and (max-width: 1000px) {
+    .del{ display:none; }
+
+    }
+
+
+      @media only screen and (max-width: 800px) {
+        .dal{ display:none; }
+        .appear{display:inline-block;}
+        }
 @media only screen and (max-width: 600px) {
   .paper{
   width:90vw;
