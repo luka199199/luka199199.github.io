@@ -73,32 +73,6 @@ padding-right:6pt;
   min-height: 110vh;
   background-color: white;
 }
-.paper-nav-back{
-background-color:rgb(230,230,230);
-height: 48pt;
-width: 600pt;
-position: absolute;
-}
-.paper-nav{
-line-height: 36pt;
-padding-top: 6pt;
-height: 36pt;
-width: 100%;
-}
-.paper-nav-box{
-  text-decoration: none;
-  width:33.33%;
-  font-size: 14pt;
-display: inline-block;
-text-align: center;
-z-index: 4;
-color: black;
-}
-.margin{
-  height: 42pt;
-  background-color: rgb(230,230,230);
-}
-
 
 
 
@@ -206,5 +180,23 @@ color:rgb(237,50,55);
   }
 }
 @media only screen and (max-width: 1100px) {
-    .paper{color:red;}
+  .del{ display:none; }
+.
+
+
+
+
   }
+@media only screen and (max-width: 600px) {
+  .paper{
+  width:90vw;
+}
+.top-nav-box{width:90%;}
+
+
+
+
+
+
+
+}
