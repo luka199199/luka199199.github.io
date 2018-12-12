@@ -98,7 +98,7 @@ padding-right:6pt;
 }
 
 .overlay a {
-    padding: 8pt;
+
     text-decoration: none;
     display: block;
     transition: 0.3s;
@@ -187,8 +187,8 @@ color:rgb(237,50,55);
 
 @media only screen and (max-width: 800px) {
   .paper{ width:90vw;}
-.hint{font-size:14pt; }
-.hint a::first-letter{font-size:18pt;}
+.hint{font-size:12pt; }
+.hint a::first-letter{font-size:16pt;}
 .top-nav-box{width:90%;}
 .dal{ display:none; }
 .appear{display:inline-block;}
