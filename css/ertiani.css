@@ -149,8 +149,8 @@ color:rgb(237,50,55);
 .closebtn {
     position: absolute;
     top:10vh;
-    right: 28%;
-    font-size: 20pt;
+    right: 20%;
+    font-size: 30pt;
     color: white;
     border-radius: 10pt;
 }
@@ -202,4 +202,5 @@ color:rgb(237,50,55);
 .dal{ display:none; }
 .appear{display:inline-block;}
 .overlay-content {  width: 80vw;  }
+.closebtn{top:0;right:10vw;top:1vh;}
 }
