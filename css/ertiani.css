@@ -11,7 +11,7 @@
   height:11vh;
   background-color:rgb(	16,	32,	48);
   opacity:1;
-  position: absolute;
+  position: fixed;
   z-index: -2;
 }
 .top-nav-box{
