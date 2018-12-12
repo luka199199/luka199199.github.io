@@ -20,15 +20,15 @@
   width:50vw;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: middle;
 }
 .top-nav-box-left{
-  background-color:rgb(	16,	32,	48);
   float:left;
-  padding-right: 5pt;
-  padding-left: 5pt;
-  border-radius: 0pt 0pt 10pt 10pt;
   display: inline-block;
-  z-index: 4;
+  width:25vw;
+  height:54pt;
+  vertical-align: middle;
+
 }
 .logo{
 width:5vh;
@@ -40,6 +40,7 @@ vertical-align: middle;
   width:25vw;
   height:54pt;
   display: inline-block;
+vertical-align: middle;
 }
 .english{
   width: 26pt;
@@ -53,9 +54,9 @@ vertical-align: middle;
 font-size: 14pt;
 display: inline-block;
 color:rgb(230,230,230);
-vertical-align: middle;
 padding-left:6pt;
 padding-right:6pt;
+vertical-align: middle;
 }
 
 
@@ -182,6 +183,8 @@ color:rgb(237,50,55);
   @media only screen and (max-width: 1000px) {
     .del{ display:none; }
 
+    .dal{ display:none; }
+    .appear{display:inline-block;}
     }
 
 
@@ -190,8 +193,6 @@ color:rgb(237,50,55);
 .hint{font-size:12pt; }
 .hint a::first-letter{font-size:16pt;}
 .top-nav-box{width:90%;}
-.dal{ display:none; }
-.appear{display:inline-block;}
 .overlay-content {  width: 80vw;  }
 .closebtn{font-size: 5vh; }
 
