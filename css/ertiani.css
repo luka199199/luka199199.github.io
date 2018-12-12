@@ -194,15 +194,12 @@ color:rgb(237,50,55);
     }
 
 
-      @media only screen and (max-width: 800px) {
-        .dal{ display:none; }
-        .appear{display:inline-block;}
-        .overlay-content {  width: 80vw;  }
-        }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .paper{ width:90vw;}
 .hint{font-size:20pt; }
 .hint a::first-letter{font-size:24pt;}
 .top-nav-box{width:90%;}
+.dal{ display:none; }
+.appear{display:inline-block;}
+.overlay-content {  width: 80vw;  }
 }
-.hint{}
