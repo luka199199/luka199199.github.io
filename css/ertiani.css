@@ -80,12 +80,11 @@ padding-right:6pt;
 
 .overlay {
     height: 100%;
-    width: 0;
+    width:0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 1s;
@@ -93,8 +92,9 @@ padding-right:6pt;
 
 .overlay-content {
     position: relative;
-    width: 30vw;
-    left:30%;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .overlay a {
@@ -107,7 +107,6 @@ padding-right:6pt;
   background-color: rgb(220,220,220);
 }
 .whitemen{
-  width:100%;
 background-color: rgb(230,230,230);
 margin-top: 10vh;
 padding-left:12pt;
@@ -198,17 +197,11 @@ color:rgb(237,50,55);
       @media only screen and (max-width: 800px) {
         .dal{ display:none; }
         .appear{display:inline-block;}
+        .overlay-content {  width: 80vw;  }
         }
 @media only screen and (max-width: 600px) {
   .paper{
   width:90vw;
 }
 .top-nav-box{width:90%;}
-
-
-
-
-
-
-
 }
