@@ -11,8 +11,8 @@
   height:11vh;
   background-color:rgb(	16,	32,	48);
   opacity:1;
-  position: fixed;
   z-index: -2;
+  position: absolute;
 }
 .top-nav-box{
   line-height:10vh;
@@ -28,10 +28,9 @@
   padding-left: 5pt;
   border-radius: 0pt 0pt 10pt 10pt;
   display: inline-block;
-  position: fixed;
+  z-index: 4;
 }
 .logo{
-
 width:5vh;
 display:inline-block;
 vertical-align: middle;
@@ -72,7 +71,6 @@ padding-right:6pt;
   margin-left: auto;
   margin-right: auto;
   min-height: 110vh;
-  padding-bottom: 4vh;
   background-color: white;
 }
 .paper-nav-back{
@@ -207,3 +205,6 @@ color:rgb(237,50,55);
     right: 35px;
   }
 }
+@media only screen and (max-width: 1100px) {
+    .paper{color:red;}
+  }
