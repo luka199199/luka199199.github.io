@@ -189,8 +189,8 @@ color:rgb(237,50,55);
 
 @media only screen and (max-width: 800px) {
   .paper{ width:90vw;}
-.hint a {font-size:12pt; }
-.hint a::first-letter{font-size:16pt;}
+.hint a {font-size:14pt; }
+.hint a::first-letter{font-size:18pt;}
 .top-nav-box{width:90%;}
 .overlay-content {  width: 80vw;  }
 .closebtn{font-size: 5vh; }
