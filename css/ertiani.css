@@ -173,6 +173,7 @@ color:rgb(237,50,55);
     font-weight: bold;padding:5pt;
 }
 .bol{ font-weight: bold;}
+
 @media only screen and (max-width: 1100px) {
 .top-nav-box{width:60vw;}
 .paper{width:56vw;}
