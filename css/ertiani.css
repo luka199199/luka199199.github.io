@@ -41,12 +41,9 @@ vertical-align: middle;
 vertical-align: middle;
 }
 .english{
-  width: 6vh;
-  height: 6vh;
-  float:right;
+  width: 5vh;
   display:inline-block;
   vertical-align: middle;
-  padding: 14pt 6pt 14pt 6pt;
 }
 .dasaxeleba{
 font-size: 14pt;
