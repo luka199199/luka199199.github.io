@@ -153,8 +153,7 @@ color:rgb(237,50,55);
 .par{
   font-size:12pt;
   width:85%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   line-height: 1.2;
 }
 .appear{
