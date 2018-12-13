@@ -117,14 +117,15 @@ margin-top:5vh;
   width:100%;
 border-bottom: 3pt solid;
 border-bottom-color:rgb(255,120,0);
-padding-bottom:5pt;
+padding-bottom:10pt;
 padding-top: 10pt;
 }
 .hint{
   display:inline-block;
 }
 .hint a {
-height: 42pt;
+padding-top: 5pt;
+padding-bottom: 5pt;
 font-size: 18pt;
 color: rgb(0,0,0);
 }
