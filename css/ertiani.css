@@ -170,6 +170,16 @@ border-top: 3pt solid;
   display:block;
   float:right;
 }
+
+.group{width:74%;
+   margin-left:13%;
+   margin-right:13%;
+    display:inline-block;
+ margin-top:20pt;}
+
+
+
+
 .appear{
   display:none;
 }
