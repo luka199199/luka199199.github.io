@@ -217,4 +217,5 @@ border-top: 3pt solid;
 .overlay-content {  width: 80vw;  }
 .closebtn{font-size: 5vh; }
 .dep{text-indent: 8vw;}
+.group{width:86%; margin-left:7%; margin-right:7%;}
 }
