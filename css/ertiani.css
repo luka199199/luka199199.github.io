@@ -181,9 +181,17 @@ border-top: 3pt solid;
   display:inline-block;
  margin-top:20pt;
  margin-left:7.5%;
- margin-right: 7%;
- width:35%;
+ margin-right:4%;
+ width:38%;
  }
+
+  .double2{
+   display:inline-block;
+  margin-top:20pt;
+  margin-right:7.5%;
+  margin-left:4%;
+  width:38%;
+  }
 
 
 .appear{
